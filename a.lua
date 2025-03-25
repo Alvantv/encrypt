@@ -16,7 +16,7 @@ if not gameid[game.PlaceId] then
 else
     -- ALADIA
     if game.PlaceId == 17404472220 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Alvantv/aladiapvpa/refs/heads/main/vipa.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Alvantv/aladiapvploader/refs/heads/main/loader.lua"))()
 
     end
 end
