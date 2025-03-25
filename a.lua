@@ -1,5 +1,5 @@
 local gameid = { 
-    [17404472220] = true, -- Aladipvp
+    [17404472220] = true, -- ALADIA
 }
 
 function notif(title, txt, dur)
@@ -14,9 +14,10 @@ end
 if not gameid[game.PlaceId] then
     notif("Unsupported Game", "This script does not support this game.", 5)
 else
-    -- aladipvp
-    elseif game.PlaceId == 17404472220 then
+    -- ALADIA
+    if game.PlaceId == 17404472220 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Alvantv/aladiapvpa/refs/heads/main/vipa.lua"))()
+
     end
 end
 -- Soon
