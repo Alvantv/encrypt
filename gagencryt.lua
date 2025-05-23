@@ -15,7 +15,7 @@ if not gameid[game.PlaceId] then
     notif("Unsupported Game", "This script does not support this game.", 5)
 else
     -- ALADIA
-    if game.PlaceId == 17404472220 then
+    if game.PlaceId == 126884695634066 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/KemilingHUB/antiafk/refs/heads/main/antiafknow.lua"))()
 
     end
