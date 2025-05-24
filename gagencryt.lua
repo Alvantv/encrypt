@@ -16,7 +16,7 @@ if not gameid[game.PlaceId] then
 else
     -- ALADIA
     if game.PlaceId == 126884695634066 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Alvantv/encrypt/refs/heads/main/linkgag%2519%25"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Alvantv/encrypt/refs/heads/main/linkgag%2519%25.lua"))()
 
     end
 end
